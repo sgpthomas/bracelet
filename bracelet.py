@@ -1,3 +1,5 @@
+#!/usr/bin/env python3
+
 import itertools
 from collections import Counter
 import numpy as np
