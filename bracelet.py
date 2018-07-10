@@ -27,11 +27,7 @@ try:
 
             veclist.append(v_i)
 
-        vec_list = sorted(veclist)
-        # for i, v in enumerate(vec_list):
-        #     print("v_{}: {}".format(i, v))
-
-        matrix = np.array(vec_list)
+        matrix = np.array(veclist)
         print(matrix)
         det = np.linalg.det(matrix)
         print("Det: {}".format(det))
